@@ -79,14 +79,21 @@ def create_flight_data():
     return flight_data_df
 
 # estimate security
-def estimate_time_security(time, time_df):
+def estimate_time_security(time, time_df, airport):
 
     time = time
     data = time_df
+    airport = airport
 
     # convert time format
     time = str(time)
     hours = time[:2]
+
+    # check airport
+    if airport == "GRR":
+        data.drop(data[data['Identifier'] != "GRR"].index)
+    else:
+        data.drop(data[data['Identifier'] == "GRR"].index)
 
     mean_idx = data.index[data['Time_From'] == float(hours)][0]
     mean = float(data['Security'][mean_idx])
@@ -95,9 +102,27 @@ def estimate_time_security(time, time_df):
 
     return abs(security)
 
-# %%
-test = create_flight_data()
+def estimate_time_checkin(time, time_df, airport):
 
-test
+    time = time
+    data = time_df
+    airport = airport
+
+    # convert time format
+    time = str(time)
+    hours = time[:2]
+
+    # check airport
+    if airport == "GRR":
+        data.drop(data[data['Identifier'] != "GRR"].index)
+    else:
+        data.drop(data[data['Identifier'] == "GRR"].index)
+
+    mean_idx = data.index[data['Time_From'] == float(hours)][0]
+    mean = float(data['Check-In'][mean_idx])
+
+    security = random.gauss(mu=mean,sigma=0.8)
+
+    return abs(security)
 
 # %%
