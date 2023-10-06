@@ -50,38 +50,8 @@ flight_data_df.head()
 # %%
 # create waiting time dataframe
 
-waiting_time_df = pd.DataFrame(columns=['Time From', 'Average Waiting Time (Security)'])
-timestamp_starts = ['05',
-                    '06',
-                    '07',
-                    '09',
-                    '10',
-                    '11',
-                    '12',
-                    '13',
-                    '14',
-                    '15',
-                    '16',
-                    '17']
-
-# add GRR data
-for i in range(len(timestamp_starts)):
-    waiting_time_df['Time From'][i] = timestamp_starts[i]
-
-waiting_time_df['Average Waiting Time (Security)'][0] = 17.1
-waiting_time_df['Average Waiting Time (Security)'][1] = 16.1
-waiting_time_df['Average Waiting Time (Security)'][2] = 12.9
-waiting_time_df['Average Waiting Time (Security)'][3] = 9.7
-waiting_time_df['Average Waiting Time (Security)'][4] = 3.1
-waiting_time_df['Average Waiting Time (Security)'][5] = 17.1
-waiting_time_df['Average Waiting Time (Security)'][6] = 11.6
-waiting_time_df['Average Waiting Time (Security)'][7] = 9.6
-waiting_time_df['Average Waiting Time (Security)'][8] = 7.6
-waiting_time_df['Average Waiting Time (Security)'][9] = 5.6
-waiting_time_df['Average Waiting Time (Security)'][10] = 3.6
-waiting_time_df['Average Waiting Time (Security)'][11] = 1.7
-waiting_time_df['Average Waiting Time (Security)'][12] = 0
-waiting_time_df['Average Waiting Time (Security)'][13] = 0
+# read GRR Waiting Time (Security) data
+waiting_time_df = pd.read_csv('wait_time_security.csv')
 
 # %%
 # inspect waiting_time dataframe
