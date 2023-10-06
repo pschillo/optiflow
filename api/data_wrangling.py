@@ -4,7 +4,7 @@ import pandas as pd
 
 # %%
 # load original flight data set, skipping description in first 7 lines
-FAA_df = pd.read_csv('Detailed_Statistics_Departures.csv', skiprows=7)
+FAA_df = pd.read_csv('../Detailed_Statistics_Departures.csv', skiprows=7)
 
 # %%
 # inspect
