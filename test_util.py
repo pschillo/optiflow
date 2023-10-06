@@ -3,6 +3,7 @@
 import pandas as pd
 import random
 from util import estimate_time_security, create_flight_data
+import datetime
 
 # %%
 # test estimate_time_security
