@@ -13,25 +13,9 @@ def estimate_time_security(time, time_df):
     time = str(time)
     hours = time[:2]
 
-    mean = data.iloc[data['Time_From'] == hours]
-    
+    mean_idx = data.index[data['Time_From'] == 17][0]
+    mean = float(data['Security'][mean_idx])
 
-    security = mean
+    security = random.gauss(mu=mean,sigma=0.5)
 
-    return security
-
-# %%
-# test
-data = pd.read_csv('wait_time_security.csv')
-time = "17:00"
-
-test = estimate_time_security(time, data)
-print(test)
-
-# %%
-# inspect
-data
-
-# %%
-# test
-data.index[data['BoolCol'] == True]
+    return abs(security)
