@@ -2,7 +2,7 @@
 # setup
 import pandas as pd
 import random
-from util import *
+from util import estimate_time_security
 
 # %%
 # test

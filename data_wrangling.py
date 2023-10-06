@@ -57,7 +57,8 @@ waiting_time_df = pd.read_csv('wait_time_security.csv')
 # inspect waiting_time dataframe
 waiting_time_df
 
-#, 'Check-In Time', 'Security Check Time', 'Boarding Time', 'Walking Time'
+#, 'Check-In Time', 'Boarding Time', 'Walking Time'
+# 'Security Check Time'
 
 
 # %%
