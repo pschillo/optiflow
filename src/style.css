@@ -1,0 +1,766 @@
+.optiflow-hub-static {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.optiflow-hub-static .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 944px;
+  position: relative;
+}
+
+.optiflow-hub-static .overlap {
+  position: absolute;
+  width: 288px;
+  height: 540px;
+  top: 256px;
+  left: 1091px;
+  background-image: url(./img/screenshot-2023-10-07-at-01-41-2.png);
+  background-size: 100% 100%;
+}
+
+.optiflow-hub-static .maximise-button {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 491px;
+  left: 231px;
+  background-color: #232323;
+  border-radius: 21.5px;
+}
+
+.optiflow-hub-static .maximize {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 10px;
+  left: 10px;
+}
+
+.optiflow-hub-static .pin {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 228px;
+  left: 54px;
+  object-fit: cover;
+}
+
+.optiflow-hub-static .you {
+  position: absolute;
+  width: 46px;
+  height: 23px;
+  top: 270px;
+  left: 51px;
+}
+
+.optiflow-hub-static .overlap-group {
+  position: relative;
+  width: 44px;
+  height: 23px;
+  background-color: #ff5757;
+  border-radius: 30px;
+}
+
+.optiflow-hub-static .text-wrapper {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .here-s-your-optiflow {
+  position: absolute;
+  top: 125px;
+  left: 61px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .today-is-friday {
+  position: absolute;
+  top: 160px;
+  left: 1030px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .p {
+  position: absolute;
+  top: 848px;
+  left: 549px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .overlap-2 {
+  position: absolute;
+  width: 281px;
+  height: 121px;
+  top: 263px;
+  left: 61px;
+}
+
+.optiflow-hub-static .RAT-expanded {
+  position: absolute;
+  width: 281px;
+  height: 121px;
+  top: 0;
+  left: 0;
+}
+
+.optiflow-hub-static .overlap-group-2 {
+  position: relative;
+  width: 277px;
+  height: 121px;
+  background-color: #0093ff;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.optiflow-hub-static .text-wrapper-2 {
+  position: absolute;
+  top: 26px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-3 {
+  top: 44px;
+  left: 34px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .chevron-down {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 63px;
+  left: 218px;
+}
+
+.optiflow-hub-static .recommended-arrival {
+  position: absolute;
+  width: 289px;
+  height: 418px;
+  top: 384px;
+  left: 61px;
+}
+
+.optiflow-hub-static .overlap-3 {
+  position: relative;
+  width: 277px;
+  height: 418px;
+  background-color: #eff8ff;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.optiflow-hub-static .text-wrapper-4 {
+  position: absolute;
+  width: 209px;
+  top: 32px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-5 {
+  position: absolute;
+  width: 171px;
+  top: 90px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-6 {
+  position: absolute;
+  width: 209px;
+  top: 179px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-7 {
+  width: 170px;
+  top: 212px;
+  position: absolute;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-8 {
+  position: absolute;
+  width: 209px;
+  top: 301px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-9 {
+  width: 167px;
+  top: 334px;
+  position: absolute;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .estimated-details {
+  position: absolute;
+  width: 443px;
+  height: 233px;
+  top: 416px;
+  left: 365px;
+}
+
+.optiflow-hub-static .overlap-4 {
+  position: relative;
+  width: 427px;
+  height: 233px;
+}
+
+.optiflow-hub-static .rectangle {
+  width: 425px;
+  left: 0;
+  background-color: #eff8ff;
+  border-radius: 30px;
+  position: absolute;
+  height: 233px;
+  top: 0;
+}
+
+.optiflow-hub-static .rectangle-2 {
+  width: 206px;
+  left: 221px;
+  background-color: #0093ff;
+  border-radius: 0px 30px 30px 0px;
+  position: absolute;
+  height: 233px;
+  top: 0;
+}
+
+.optiflow-hub-static .text-wrapper-10 {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-11 {
+  top: 45px;
+  left: 31px;
+  font-weight: 400;
+  color: #232323;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-12 {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-13 {
+  top: 46px;
+  left: 261px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-14 {
+  position: absolute;
+  top: 129px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-15 {
+  position: absolute;
+  top: 150px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-16 {
+  position: absolute;
+  top: 128px;
+  left: 261px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-17 {
+  position: absolute;
+  top: 150px;
+  left: 261px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .ticket {
+  position: absolute;
+  width: 715px;
+  height: 126px;
+  top: 263px;
+  left: 365px;
+}
+
+.optiflow-hub-static .overlap-5 {
+  position: relative;
+  width: 699px;
+  height: 126px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.optiflow-hub-static .overlap-6 {
+  position: absolute;
+  width: 192px;
+  height: 76px;
+  top: 25px;
+  left: 29px;
+}
+
+.optiflow-hub-static .text-wrapper-18 {
+  position: absolute;
+  width: 46px;
+  top: 0;
+  left: 2px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-19 {
+  position: absolute;
+  width: 192px;
+  top: 18px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .overlap-group-3 {
+  position: absolute;
+  width: 99px;
+  height: 76px;
+  top: 25px;
+  left: 240px;
+}
+
+.optiflow-hub-static .text-wrapper-20 {
+  position: absolute;
+  width: 42px;
+  top: 0;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-21 {
+  position: absolute;
+  width: 99px;
+  top: 18px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-22 {
+  position: absolute;
+  width: 104px;
+  top: 55px;
+  left: 345px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-23 {
+  position: absolute;
+  width: 104px;
+  top: 55px;
+  left: 579px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .overlap-7 {
+  position: absolute;
+  width: 107px;
+  height: 74px;
+  top: 28px;
+  left: 468px;
+}
+
+.optiflow-hub-static .text-wrapper-24 {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .text-wrapper-25 {
+  position: absolute;
+  width: 107px;
+  top: 16px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .opti-flow {
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  top: 36px;
+  left: 61px;
+}
+
+.optiflow-hub-static .div-wrapper {
+  position: relative;
+  width: 138px;
+  height: 48px;
+  background-color: #0093ff;
+  border-radius: 24.64px;
+}
+
+.optiflow-hub-static .text-wrapper-26 {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  font-family: "Josefin Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .menu {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 44px;
+  left: 1333px;
+}
+
+.optiflow-hub-static .overlap-8 {
+  position: absolute;
+  width: 699px;
+  height: 126px;
+  top: 676px;
+  left: 365px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.optiflow-hub-static .accessibility-icon {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 30px;
+  left: 31px;
+  background-image: url(./img/icons8-accessibility-100-1-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.optiflow-hub-static .text-wrapper-27 {
+  position: absolute;
+  top: 56px;
+  left: 116px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .text-wrapper-28 {
+  position: absolute;
+  top: 56px;
+  left: 453px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .edit-button {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 71px;
+  left: 644px;
+  background-color: #232323;
+  border-radius: 21.5px;
+}
+
+.optiflow-hub-static .frame {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: 13px;
+  left: 12px;
+}
+
+.optiflow-hub-static .luggage-icon {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 22px;
+  left: 365px;
+  object-fit: cover;
+}
+
+.optiflow-hub-static .overlap-9 {
+  position: absolute;
+  width: 240px;
+  height: 101px;
+  top: 416px;
+  left: 824px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.optiflow-hub-static .text-wrapper-29 {
+  position: absolute;
+  top: 35px;
+  left: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .alert-icon {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 21px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.optiflow-hub-static .overlap-10 {
+  position: absolute;
+  width: 242px;
+  height: 105px;
+  top: 544px;
+  left: 822px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.optiflow-hub-static .text-wrapper-30 {
+  position: absolute;
+  top: 37px;
+  left: 107px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #232323;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.optiflow-hub-static .img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 10px;
+  left: 24px;
+}
+
+.optiflow-hub-static .text-wrapper-31 {
+  position: absolute;
+  top: 882px;
+  left: 565px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #232323;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.optiflow-hub-static .overlap-wrapper {
+  position: absolute;
+  top: -215px;
+  left: 460px;
+  opacity: 0;
+}
+
+.optiflow-hub-static .overlap-11 {
+  position: relative;
+  width: 520px;
+  height: 182px;
+  background-color: #0093ff;
+  border-radius: 92.86px;
+}
+
+.optiflow-hub-static .text-wrapper-32 {
+  position: absolute;
+  top: 52px;
+  left: 69px;
+  font-family: "Josefin Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 89.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
