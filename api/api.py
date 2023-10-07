@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from datetime import time, datetime, timedelta
 import pandas as pd
 import util
 
 app = Flask(__name__)
+CORS(app)
 
 
 def find_row_by_code_and_date(df, flight_number, departure_date):
