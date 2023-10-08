@@ -8,8 +8,8 @@ def create_flight_data():
 
     ## %%
     # load original flight data set, skipping description in first 7 lines
-    FAA_df = pd.read_csv('Detailed_Statistics_Departures.csv', skiprows=7)
-    FAA_LAX_df = pd.read_csv('Detailed_Statistics_Departures_LAX.csv', skiprows=7)
+    FAA_df = pd.read_csv('Detailed_Statistics_Departures.csv', skiprows=7, nrows=100)
+    FAA_LAX_df = pd.read_csv('Detailed_Statistics_Departures_LAX.csv', skiprows=7, nrows=100)
 
     ## %%
     # inspect
